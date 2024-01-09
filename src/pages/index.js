@@ -9,7 +9,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center justify-center p-24 ${inter.className}`}
     >
-      <h1 className=" text-[50px] lg:text-[100px] font-bold tracking-[2px]">PAPU EFFECTS.</h1>
+      <h1 className=" text-[50px] lg:text-[100px] font-bold tracking-[2px] hover:scale-105 cursor-pointer transition-all duration-150">PAPU EFFECTS.</h1>
     </main>
   );
 }
